@@ -101,10 +101,10 @@ router.get('/sign/out', function(request, response, next) {
  ********************/
 
 var connection2 = mysql.createConnection({
-        host : 'aws-steam.cbempiaq5rfm.ap-northeast-2.rds.amazonaws.com',
-        user : 'aws_steam',
-        password : 'passwd_steam',
-        database : 'MONSTUDY'
+        host : '',
+        user : '',
+        password : '',
+        database : ''
 });
 
 //로그인
